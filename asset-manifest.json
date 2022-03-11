@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/worlds-worst-clicker/static/css/main.b628572d.css",
+    "main.js": "/worlds-worst-clicker/static/js/main.cc724312.js",
+    "static/js/787.a00b3494.chunk.js": "/worlds-worst-clicker/static/js/787.a00b3494.chunk.js",
+    "index.html": "/worlds-worst-clicker/index.html",
+    "main.b628572d.css.map": "/worlds-worst-clicker/static/css/main.b628572d.css.map",
+    "main.cc724312.js.map": "/worlds-worst-clicker/static/js/main.cc724312.js.map",
+    "787.a00b3494.chunk.js.map": "/worlds-worst-clicker/static/js/787.a00b3494.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b628572d.css",
+    "static/js/main.cc724312.js"
+  ]
+}
