@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from "./App.module.css"
+import { useState } from "react";
 
 function App() {
+  const [clicks, setClicks] = useState(0);
+
+  const onClick = () => {
+    if (Math.random() < 0.01) {
+      setClicks(0);
+    } else {
+      setClicks(clicks + 1);
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.container}>
+      <div onClick={onClick} className={styles.clicks}>{clicks}</div>
     </div>
   );
 }
